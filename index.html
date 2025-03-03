@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="center">
+    <form action="">
+      <div class="container">
+        <h2>Countact Us</h2>
+        <!--intro************-->
+        <label for="fname" class="lbl flex-left1 flex">First Name <span>*</span></label>
+        <input type="text" id="fname" class="intro-input flex-left flex" />
+        <label for="lname" class="lbl flex-right1 flex">Last Name <span>*</span></label>
+        <input type="text" id="lname" class="intro-input flex-right flex" />
+
+        <!--maile************-->
+        <label for="maile" class="lbl maile">Email Address <span>*</span></label>
+        <input type="maile" id="maile" class="maile-box" />
+        <!--query************-->
+        <label for="query" class="lbl">Query Type <span>*</span></label>
+
+        <div class="query-box query-box1">
+          <input type="radio" id="query" class="radio" />
+          <label for="query" class="radio1-lbl">General Enquiry</label>
+        </div>
+        <div class="query-box query-box2">
+          <input type="radio" id="query" class="radio" />
+          <label for="query" class="radio2-lbl">Support Request</label>
+        </div>
+
+        <!--message************-->
+        <label for="message" class="lbl message">Message <span>*</span></label>
+        <input type="text" class="message-box" />
+        <div class="check-box">
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox"
+            >I Consent to being contacted by the team <span>*</span></label
+          >
+        </div>
+
+        <button type="submit" class="submit">Submit</button>
+      </div>
+    </form>
+</div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 243, 243);
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 450px;
+}
+.container{
+   
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px;
+}
+.lbl{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.intro-input{
+    border: 1px solid rgb(192, 190, 190);
+    height: 40px;
+    border-radius: 6px;
+}
+.maile-box{
+    border: 1px solid rgb(192, 190, 190);
+    height: 40px;
+    border-radius: 6px;
+}
+.query-box{
+    border: 1px solid rgb(192, 190, 190);
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.radio{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.radio1-lbl{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.radio2-lbl{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.message-box{
+    border: 1px solid rgb(192, 190, 190);
+    height: 80px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.submit{
+    background-color: rgb(18, 48, 18);
+    color: white;
+    height: 30px;
+    border-radius: 6px;
+}
+.check-box{
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        position: relative;
+    }
+    .maile{
+        margin-top: 100px;
+    }
+    .flex , .query-box {
+        position: absolute;
+    }
+    .flex-left1{
+        top: 80px;
+    }
+    .flex-left{
+        top: 125px;
+        width: 200px;
+    }
+    .flex-right1{
+        top: 80px;
+        left: 227px;
+    }
+    .flex-right{
+        top: 125px;
+        left: 227px;
+        width: 200px;
+    }
+    .message{
+        margin-top: 50px;
+    }
+    .query-box1{
+       top: 295px;
+       width: 200px;
+    }
+    .query-box2{
+        top: 295px;
+        width: 200px;
+        left: 227px;
+    }
+  }
